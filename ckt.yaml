@@ -1,0 +1,49 @@
+internalName: chukchi
+
+displayNames:
+  ckt: Ԓыгъоравэтԓьат
+  ru: Чукотский
+  en: Chukchi
+
+locale: ckt
+
+locales: ckt
+
+modes:
+  mobile-default: |
+    й у к ӄ е н ӈ г ш щ з х 
+    ф ы в а п р о ԓ д ж э 
+    я ч с м и т ь ъ б ю ʼ ц
+  mobile-shift: |
+    Й У К Ӄ Е Н Ӈ Г Ш Щ З Х 
+    Ф Ы В А П Р О Ԓ Д Ж Э
+    Я Ч С М И Т Ь Ъ Б Ю ʼ Ц
+
+decimal: ','
+
+deadKeys:
+  iso-default: ["`"]
+  iso-shift: ["`"]
+
+longpress:
+  ԓ: л
+  Ԓ: Л
+
+styles:
+  tablet:
+    actions:
+      backspace: [1, right, fill]
+      enter: [2, right, fill]
+      shift: [3, both, fill]
+  phone:
+    actions:
+      shift: [3, left, fill]
+      backspace: [3, right, fill]
+
+#targets:
+#  android:
+#    minimumSdk: 21
+
+strings:
+  space: пробел
+  return: linnjámolsun

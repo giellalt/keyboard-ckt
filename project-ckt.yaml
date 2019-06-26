@@ -1,0 +1,24 @@
+internalName: teclado_chukchi
+
+locales:
+  en:
+    name: "Chukchi Keyboard"
+    description: "A test keyboard for Chukchi."
+  ru:
+    name: &bundleName "Чукотская Клавиатура"
+    description: "Чукотская Клавиатура"
+
+author: Francis M. Tyers
+email: ftyers@iu.edu
+
+layouts: [ckt]
+
+version: "1.0"
+build: "1"
+
+targets:
+  android:
+    packageId: so.ftyers.keyboards.chukchi
+    #icon: chukchi-icon.pdf
+    keyStore: /Users/ftyers/source/giellatekno/giella-core/kbdgen/teclado_cuicateco.keystore
+    keyAlias: teclado_chukchi
