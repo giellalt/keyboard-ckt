@@ -1,0 +1,9 @@
+locales:
+  en:
+    name: Chukchi Keyboard
+    description: A test keyboard for Chukchi.
+  ru:
+    name: Чукотская Клавиатура
+    description: Чукотская Клавиатура
+author: Francis M. Tyers
+email: ftyers@iu.edu
