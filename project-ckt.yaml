@@ -11,7 +11,10 @@ locales:
 author: Francis M. Tyers
 email: ftyers@iu.edu
 
-layouts: [ckt]
+layouts:
+  - ckt
+  - ckt-mac
+  - ckt-win
 
 version: "1.0"
 build: "1"
